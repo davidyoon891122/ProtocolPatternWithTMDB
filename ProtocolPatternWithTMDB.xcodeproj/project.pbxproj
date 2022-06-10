@@ -32,6 +32,7 @@
 		ADC6527F2852BCBF00F81AF0 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = ADC6527E2852BCBF00F81AF0 /* RxTest */; };
 		ADC652822852BCBF00F81AF0 /* RxTest-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC652802852BCBF00F81AF0 /* RxTest-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ADC6528C2852BE7400F81AF0 /* MovieMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */; };
+		ADC6528E2852C4B900F81AF0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6528D2852C4B900F81AF0 /* MovieModel.swift */; };
 		B4C2A330E5F2F8CB1A88A252 /* Pods_ProtocolPatternWithTMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339F3398F5BE2F35DDF82F51 /* Pods_ProtocolPatternWithTMDB.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		ADC652312852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPatternWithTMDBTests.swift; sourceTree = "<group>"; };
 		ADC6524B2852B86300F81AF0 /* MovieMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainViewController.swift; sourceTree = "<group>"; };
 		ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainViewModel.swift; sourceTree = "<group>"; };
+		ADC6528D2852C4B900F81AF0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		F3BA03CB064F9BEBED06A0F0 /* Pods-ProtocolPatternWithTMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDB.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDB/Pods-ProtocolPatternWithTMDB.debug.xcconfig"; sourceTree = "<group>"; };
 		FC65D3FBB460C5C7B8FD2391 /* Pods-ProtocolPatternWithTMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDB.release.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDB/Pods-ProtocolPatternWithTMDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +161,8 @@
 			children = (
 				ADC6528A2852BE5800F81AF0 /* Delegate */,
 				ADC6524A2852B84C00F81AF0 /* Scene */,
+				ADC652902852C67C00F81AF0 /* ViewModel */,
+				ADC6528F2852C4BD00F81AF0 /* Model */,
 				ADC652232852B7AF00F81AF0 /* Assets.xcassets */,
 				ADC652252852B7AF00F81AF0 /* LaunchScreen.storyboard */,
 				ADC652282852B7AF00F81AF0 /* Info.plist */,
@@ -178,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				ADC6524B2852B86300F81AF0 /* MovieMainViewController.swift */,
-				ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -190,6 +193,22 @@
 				ADC6521C2852B7AE00F81AF0 /* SceneDelegate.swift */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		ADC6528F2852C4BD00F81AF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6528D2852C4B900F81AF0 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADC652902852C67C00F81AF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +407,7 @@
 			files = (
 				ADC6528C2852BE7400F81AF0 /* MovieMainViewModel.swift in Sources */,
 				ADC6524C2852B86300F81AF0 /* MovieMainViewController.swift in Sources */,
+				ADC6528E2852C4B900F81AF0 /* MovieModel.swift in Sources */,
 				ADC6521B2852B7AE00F81AF0 /* AppDelegate.swift in Sources */,
 				ADC6521D2852B7AE00F81AF0 /* SceneDelegate.swift in Sources */,
 			);
