@@ -10,7 +10,7 @@ import RxSwift
 import SnapKit
 import RxCocoa
 
-final class MovieMainViewController: UIViewController {
+final class MovieMainViewController: UIViewController, UITableViewDelegate {
     private let viewModel = MovieMainViewModel()
 
     private let disposeBag = DisposeBag()
@@ -23,6 +23,8 @@ final class MovieMainViewController: UIViewController {
 
     private lazy var movieTitleTableView: UITableView = {
         let tableView = UITableView()
+        _ = tableView.rx.setDelegate(self)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return tableView
     }()
 
@@ -43,6 +45,11 @@ private extension MovieMainViewController {
             .forEach {
                 view.addSubview($0)
             }
+
+        movieTitleTableView.snp.makeConstraints {
+            $0.top.equalTo(view.safeAreaLayoutGuide)
+            $0.leading.trailing.bottom.equalToSuperview()
+        }
     }
 
     func bind() {
@@ -57,6 +64,16 @@ private extension MovieMainViewController {
             .subscribe(onNext: {
                 self.viewModel.inputs.request1()
             })
+            .disposed(by: disposeBag)
+
+        viewModel.outputs.movieTitleObservable
+            .bind(to: movieTitleTableView.rx.items(
+                cellIdentifier: "cell",
+                cellType: UITableViewCell.self
+            )) { index, element, cell in
+                print("\(index), \(element), \(cell)")
+                cell.textLabel?.text = element
+            }
             .disposed(by: disposeBag)
     }
 }

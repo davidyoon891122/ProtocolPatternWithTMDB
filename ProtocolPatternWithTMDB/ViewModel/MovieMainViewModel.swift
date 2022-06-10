@@ -18,6 +18,7 @@ protocol MovieMainViewModelInput {
 
 protocol MovieMainViewModelOutput {
     var number: BehaviorRelay<Int> { get }
+    var movieTitleObservable: BehaviorSubject<[String]> { get }
 }
 
 protocol MovieMainViewModelType {
@@ -32,6 +33,8 @@ final class MovieMainViewModel: MovieMainViewModelType, MovieMainViewModelOutput
     var number: BehaviorRelay<Int>
 
     let model: MovieModel
+
+    var movieTitleObservable: BehaviorSubject<[String]> = .init(value: ["The Apple", "Mac", "Test"])
 
     init() {
         model = MovieModel()
