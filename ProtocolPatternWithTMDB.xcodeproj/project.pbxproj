@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18860BBD780941D0D0B72B34 /* Pods_ProtocolPatternWithTMDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475D4CA76897ED6717945681 /* Pods_ProtocolPatternWithTMDBTests.framework */; };
 		ADC6521B2852B7AE00F81AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6521A2852B7AE00F81AF0 /* AppDelegate.swift */; };
 		ADC6521D2852B7AE00F81AF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6521C2852B7AE00F81AF0 /* SceneDelegate.swift */; };
 		ADC652242852B7AF00F81AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC652232852B7AF00F81AF0 /* Assets.xcassets */; };
 		ADC652272852B7AF00F81AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC652252852B7AF00F81AF0 /* LaunchScreen.storyboard */; };
 		ADC652322852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC652312852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift */; };
-		ADC6523C2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6523B2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.swift */; };
-		ADC6523E2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6523D2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITestsLaunchTests.swift */; };
 		ADC6524C2852B86300F81AF0 /* MovieMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6524B2852B86300F81AF0 /* MovieMainViewController.swift */; };
 		ADC6524F2852B8D400F81AF0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADC6524E2852B8D400F81AF0 /* SnapKit */; };
 		ADC652522852B8F800F81AF0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652512852B8F800F81AF0 /* RxCocoa */; };
 		ADC652542852B8F800F81AF0 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652532852B8F800F81AF0 /* RxRelay */; };
 		ADC652562852B8F800F81AF0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652552852B8F800F81AF0 /* RxSwift */; };
 		ADC652582852B8F800F81AF0 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652572852B8F800F81AF0 /* RxTest */; };
+		ADC652652852BCBF00F81AF0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652642852BCBF00F81AF0 /* SnapKit */; };
+		ADC652692852BCBF00F81AF0 /* SnapKit-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC652662852BCBF00F81AF0 /* SnapKit-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC6526B2852BCBF00F81AF0 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = ADC6526A2852BCBF00F81AF0 /* RxBlocking */; };
+		ADC6526E2852BCBF00F81AF0 /* RxBlocking-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC6526C2852BCBF00F81AF0 /* RxBlocking-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC652702852BCBF00F81AF0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = ADC6526F2852BCBF00F81AF0 /* RxCocoa */; };
+		ADC652732852BCBF00F81AF0 /* RxCocoa-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC652712852BCBF00F81AF0 /* RxCocoa-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC652752852BCBF00F81AF0 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652742852BCBF00F81AF0 /* RxRelay */; };
+		ADC652782852BCBF00F81AF0 /* RxRelay-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC652762852BCBF00F81AF0 /* RxRelay-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC6527A2852BCBF00F81AF0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADC652792852BCBF00F81AF0 /* RxSwift */; };
+		ADC6527D2852BCBF00F81AF0 /* RxSwift-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC6527B2852BCBF00F81AF0 /* RxSwift-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC6527F2852BCBF00F81AF0 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = ADC6527E2852BCBF00F81AF0 /* RxTest */; };
+		ADC652822852BCBF00F81AF0 /* RxTest-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ADC652802852BCBF00F81AF0 /* RxTest-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ADC6528C2852BE7400F81AF0 /* MovieMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */; };
+		ADC6528E2852C4B900F81AF0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6528D2852C4B900F81AF0 /* MovieModel.swift */; };
+		ADC652922852EF9400F81AF0 /* MovieMainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC652912852EF9400F81AF0 /* MovieMainViewModelTests.swift */; };
+		B4C2A330E5F2F8CB1A88A252 /* Pods_ProtocolPatternWithTMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339F3398F5BE2F35DDF82F51 /* Pods_ProtocolPatternWithTMDB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +45,32 @@
 			remoteGlobalIDString = ADC652162852B7AE00F81AF0;
 			remoteInfo = ProtocolPatternWithTMDB;
 		};
-		ADC652382852B7B000F81AF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADC6520F2852B7AE00F81AF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADC652162852B7AE00F81AF0;
-			remoteInfo = ProtocolPatternWithTMDB;
-		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ADC652682852BCBF00F81AF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADC652822852BCBF00F81AF0 /* RxTest-Dynamic in Embed Frameworks */,
+				ADC652782852BCBF00F81AF0 /* RxRelay-Dynamic in Embed Frameworks */,
+				ADC6527D2852BCBF00F81AF0 /* RxSwift-Dynamic in Embed Frameworks */,
+				ADC652692852BCBF00F81AF0 /* SnapKit-Dynamic in Embed Frameworks */,
+				ADC652732852BCBF00F81AF0 /* RxCocoa-Dynamic in Embed Frameworks */,
+				ADC6526E2852BCBF00F81AF0 /* RxBlocking-Dynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		339F3398F5BE2F35DDF82F51 /* Pods_ProtocolPatternWithTMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolPatternWithTMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB79AD60361E27C4EE2EFD1 /* Pods-ProtocolPatternWithTMDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDBTests.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDBTests/Pods-ProtocolPatternWithTMDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		475D4CA76897ED6717945681 /* Pods_ProtocolPatternWithTMDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolPatternWithTMDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5538C3347EF4EB7654A0DB74 /* Pods-ProtocolPatternWithTMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDBTests.release.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDBTests/Pods-ProtocolPatternWithTMDBTests.release.xcconfig"; sourceTree = "<group>"; };
 		ADC652172852B7AE00F81AF0 /* ProtocolPatternWithTMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolPatternWithTMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC6521A2852B7AE00F81AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC6521C2852B7AE00F81AF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,10 +79,12 @@
 		ADC652282852B7AF00F81AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADC6522D2852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolPatternWithTMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC652312852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPatternWithTMDBTests.swift; sourceTree = "<group>"; };
-		ADC652372852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolPatternWithTMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADC6523B2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPatternWithTMDBUITests.swift; sourceTree = "<group>"; };
-		ADC6523D2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPatternWithTMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ADC6524B2852B86300F81AF0 /* MovieMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainViewController.swift; sourceTree = "<group>"; };
+		ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainViewModel.swift; sourceTree = "<group>"; };
+		ADC6528D2852C4B900F81AF0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		ADC652912852EF9400F81AF0 /* MovieMainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainViewModelTests.swift; sourceTree = "<group>"; };
+		F3BA03CB064F9BEBED06A0F0 /* Pods-ProtocolPatternWithTMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDB.debug.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDB/Pods-ProtocolPatternWithTMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		FC65D3FBB460C5C7B8FD2391 /* Pods-ProtocolPatternWithTMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolPatternWithTMDB.release.xcconfig"; path = "Target Support Files/Pods-ProtocolPatternWithTMDB/Pods-ProtocolPatternWithTMDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +97,7 @@
 				ADC652522852B8F800F81AF0 /* RxCocoa in Frameworks */,
 				ADC652562852B8F800F81AF0 /* RxSwift in Frameworks */,
 				ADC6524F2852B8D400F81AF0 /* SnapKit in Frameworks */,
+				B4C2A330E5F2F8CB1A88A252 /* Pods_ProtocolPatternWithTMDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,26 +105,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADC652342852B7B000F81AF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ADC652702852BCBF00F81AF0 /* RxCocoa in Frameworks */,
+				ADC6527A2852BCBF00F81AF0 /* RxSwift in Frameworks */,
+				ADC6527F2852BCBF00F81AF0 /* RxTest in Frameworks */,
+				18860BBD780941D0D0B72B34 /* Pods_ProtocolPatternWithTMDBTests.framework in Frameworks */,
+				ADC6526B2852BCBF00F81AF0 /* RxBlocking in Frameworks */,
+				ADC652652852BCBF00F81AF0 /* SnapKit in Frameworks */,
+				ADC652752852BCBF00F81AF0 /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223667987AFEC50A096AD6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339F3398F5BE2F35DDF82F51 /* Pods_ProtocolPatternWithTMDB.framework */,
+				475D4CA76897ED6717945681 /* Pods_ProtocolPatternWithTMDBTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA41E45F687A85E374F297C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3BA03CB064F9BEBED06A0F0 /* Pods-ProtocolPatternWithTMDB.debug.xcconfig */,
+				FC65D3FBB460C5C7B8FD2391 /* Pods-ProtocolPatternWithTMDB.release.xcconfig */,
+				3AB79AD60361E27C4EE2EFD1 /* Pods-ProtocolPatternWithTMDBTests.debug.xcconfig */,
+				5538C3347EF4EB7654A0DB74 /* Pods-ProtocolPatternWithTMDBTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADC6520E2852B7AE00F81AF0 = {
 			isa = PBXGroup;
 			children = (
 				ADC652192852B7AE00F81AF0 /* ProtocolPatternWithTMDB */,
 				ADC652302852B7B000F81AF0 /* ProtocolPatternWithTMDBTests */,
-				ADC6523A2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests */,
 				ADC652182852B7AE00F81AF0 /* Products */,
+				8DA41E45F687A85E374F297C /* Pods */,
+				223667987AFEC50A096AD6E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +154,6 @@
 			children = (
 				ADC652172852B7AE00F81AF0 /* ProtocolPatternWithTMDB.app */,
 				ADC6522D2852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.xctest */,
-				ADC652372852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +161,10 @@
 		ADC652192852B7AE00F81AF0 /* ProtocolPatternWithTMDB */ = {
 			isa = PBXGroup;
 			children = (
+				ADC6528A2852BE5800F81AF0 /* Delegate */,
 				ADC6524A2852B84C00F81AF0 /* Scene */,
-				ADC6521A2852B7AE00F81AF0 /* AppDelegate.swift */,
-				ADC6521C2852B7AE00F81AF0 /* SceneDelegate.swift */,
+				ADC652902852C67C00F81AF0 /* ViewModel */,
+				ADC6528F2852C4BD00F81AF0 /* Model */,
 				ADC652232852B7AF00F81AF0 /* Assets.xcassets */,
 				ADC652252852B7AF00F81AF0 /* LaunchScreen.storyboard */,
 				ADC652282852B7AF00F81AF0 /* Info.plist */,
@@ -121,17 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				ADC652312852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift */,
+				ADC652912852EF9400F81AF0 /* MovieMainViewModelTests.swift */,
 			);
 			path = ProtocolPatternWithTMDBTests;
-			sourceTree = "<group>";
-		};
-		ADC6523A2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ADC6523B2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.swift */,
-				ADC6523D2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITestsLaunchTests.swift */,
-			);
-			path = ProtocolPatternWithTMDBUITests;
 			sourceTree = "<group>";
 		};
 		ADC6524A2852B84C00F81AF0 /* Scene */ = {
@@ -142,6 +189,31 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		ADC6528A2852BE5800F81AF0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6521A2852B7AE00F81AF0 /* AppDelegate.swift */,
+				ADC6521C2852B7AE00F81AF0 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		ADC6528F2852C4BD00F81AF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6528D2852C4B900F81AF0 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADC652902852C67C00F81AF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6528B2852BE7400F81AF0 /* MovieMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC652412852B7B000F81AF0 /* Build configuration list for PBXNativeTarget "ProtocolPatternWithTMDB" */;
 			buildPhases = (
+				16071071E20DF936DBACAFB5 /* [CP] Check Pods Manifest.lock */,
 				ADC652132852B7AE00F81AF0 /* Sources */,
 				ADC652142852B7AE00F81AF0 /* Frameworks */,
 				ADC652152852B7AE00F81AF0 /* Resources */,
+				ADC652592852BB0000F81AF0 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -173,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC652442852B7B000F81AF0 /* Build configuration list for PBXNativeTarget "ProtocolPatternWithTMDBTests" */;
 			buildPhases = (
+				F71EA3986F9395F19515FE8F /* [CP] Check Pods Manifest.lock */,
 				ADC652292852B7B000F81AF0 /* Sources */,
 				ADC6522A2852B7B000F81AF0 /* Frameworks */,
 				ADC6522B2852B7B000F81AF0 /* Resources */,
+				ADC652682852BCBF00F81AF0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,27 +259,23 @@
 				ADC6522F2852B7B000F81AF0 /* PBXTargetDependency */,
 			);
 			name = ProtocolPatternWithTMDBTests;
+			packageProductDependencies = (
+				ADC652642852BCBF00F81AF0 /* SnapKit */,
+				ADC652662852BCBF00F81AF0 /* SnapKit-Dynamic */,
+				ADC6526A2852BCBF00F81AF0 /* RxBlocking */,
+				ADC6526C2852BCBF00F81AF0 /* RxBlocking-Dynamic */,
+				ADC6526F2852BCBF00F81AF0 /* RxCocoa */,
+				ADC652712852BCBF00F81AF0 /* RxCocoa-Dynamic */,
+				ADC652742852BCBF00F81AF0 /* RxRelay */,
+				ADC652762852BCBF00F81AF0 /* RxRelay-Dynamic */,
+				ADC652792852BCBF00F81AF0 /* RxSwift */,
+				ADC6527B2852BCBF00F81AF0 /* RxSwift-Dynamic */,
+				ADC6527E2852BCBF00F81AF0 /* RxTest */,
+				ADC652802852BCBF00F81AF0 /* RxTest-Dynamic */,
+			);
 			productName = ProtocolPatternWithTMDBTests;
 			productReference = ADC6522D2852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ADC652362852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADC652472852B7B000F81AF0 /* Build configuration list for PBXNativeTarget "ProtocolPatternWithTMDBUITests" */;
-			buildPhases = (
-				ADC652332852B7B000F81AF0 /* Sources */,
-				ADC652342852B7B000F81AF0 /* Frameworks */,
-				ADC652352852B7B000F81AF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADC652392852B7B000F81AF0 /* PBXTargetDependency */,
-			);
-			name = ProtocolPatternWithTMDBUITests;
-			productName = ProtocolPatternWithTMDBUITests;
-			productReference = ADC652372852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,10 +291,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					ADC6522C2852B7B000F81AF0 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = ADC652162852B7AE00F81AF0;
-					};
-					ADC652362852B7B000F81AF0 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = ADC652162852B7AE00F81AF0;
 					};
@@ -247,7 +315,6 @@
 			targets = (
 				ADC652162852B7AE00F81AF0 /* ProtocolPatternWithTMDB */,
 				ADC6522C2852B7B000F81AF0 /* ProtocolPatternWithTMDBTests */,
-				ADC652362852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,21 +336,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADC652352852B7B000F81AF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16071071E20DF936DBACAFB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtocolPatternWithTMDB-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		ADC652592852BB0000F81AF0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		F71EA3986F9395F19515FE8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtocolPatternWithTMDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADC652132852B7AE00F81AF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC6528C2852BE7400F81AF0 /* MovieMainViewModel.swift in Sources */,
 				ADC6524C2852B86300F81AF0 /* MovieMainViewController.swift in Sources */,
+				ADC6528E2852C4B900F81AF0 /* MovieModel.swift in Sources */,
 				ADC6521B2852B7AE00F81AF0 /* AppDelegate.swift in Sources */,
 				ADC6521D2852B7AE00F81AF0 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,16 +420,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC652922852EF9400F81AF0 /* MovieMainViewModelTests.swift in Sources */,
 				ADC652322852B7B000F81AF0 /* ProtocolPatternWithTMDBTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADC652332852B7B000F81AF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADC6523E2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITestsLaunchTests.swift in Sources */,
-				ADC6523C2852B7B000F81AF0 /* ProtocolPatternWithTMDBUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,11 +432,6 @@
 			isa = PBXTargetDependency;
 			target = ADC652162852B7AE00F81AF0 /* ProtocolPatternWithTMDB */;
 			targetProxy = ADC6522E2852B7B000F81AF0 /* PBXContainerItemProxy */;
-		};
-		ADC652392852B7B000F81AF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADC652162852B7AE00F81AF0 /* ProtocolPatternWithTMDB */;
-			targetProxy = ADC652382852B7B000F81AF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -451,6 +565,7 @@
 		};
 		ADC652422852B7B000F81AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BA03CB064F9BEBED06A0F0 /* Pods-ProtocolPatternWithTMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +594,7 @@
 		};
 		ADC652432852B7B000F81AF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC65D3FBB460C5C7B8FD2391 /* Pods-ProtocolPatternWithTMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -507,6 +623,7 @@
 		};
 		ADC652452852B7B000F81AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB79AD60361E27C4EE2EFD1 /* Pods-ProtocolPatternWithTMDBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +644,7 @@
 		};
 		ADC652462852B7B000F81AF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5538C3347EF4EB7654A0DB74 /* Pods-ProtocolPatternWithTMDBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,42 +660,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolPatternWithTMDB.app/ProtocolPatternWithTMDB";
-			};
-			name = Release;
-		};
-		ADC652482852B7B000F81AF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.ProtocolPatternWithTMDBUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProtocolPatternWithTMDB;
-			};
-			name = Debug;
-		};
-		ADC652492852B7B000F81AF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HDFLLXK789;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ycompany.ProtocolPatternWithTMDBUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProtocolPatternWithTMDB;
 			};
 			name = Release;
 		};
@@ -607,15 +689,6 @@
 			buildConfigurations = (
 				ADC652452852B7B000F81AF0 /* Debug */,
 				ADC652462852B7B000F81AF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADC652472852B7B000F81AF0 /* Build configuration list for PBXNativeTarget "ProtocolPatternWithTMDBUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADC652482852B7B000F81AF0 /* Debug */,
-				ADC652492852B7B000F81AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -666,6 +739,66 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxTest;
+		};
+		ADC652642852BCBF00F81AF0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC6524D2852B8D400F81AF0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		ADC652662852BCBF00F81AF0 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC6524D2852B8D400F81AF0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		ADC6526A2852BCBF00F81AF0 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		ADC6526C2852BCBF00F81AF0 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		ADC6526F2852BCBF00F81AF0 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		ADC652712852BCBF00F81AF0 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		ADC652742852BCBF00F81AF0 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		ADC652762852BCBF00F81AF0 /* RxRelay-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxRelay-Dynamic";
+		};
+		ADC652792852BCBF00F81AF0 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		ADC6527B2852BCBF00F81AF0 /* RxSwift-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxSwift-Dynamic";
+		};
+		ADC6527E2852BCBF00F81AF0 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		ADC652802852BCBF00F81AF0 /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADC652502852B8F800F81AF0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
