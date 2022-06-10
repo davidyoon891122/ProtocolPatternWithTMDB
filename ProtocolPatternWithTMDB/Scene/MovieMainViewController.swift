@@ -8,17 +8,23 @@
 import UIKit
 import RxSwift
 import SnapKit
+import RxCocoa
 
 final class MovieMainViewController: UIViewController {
+    private let viewModel = MovieMainViewModel()
+
+    private let disposeBag = DisposeBag()
+
     private lazy var movieButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .blue
-        button.setImage(UIImage(systemName: "button.programmable"), for: .normal)
+        button.setImage(UIImage(systemName: "xmark"), for: .normal)
         return button
     }()
 
-    var viewModel = MovieMainViewModel()
-    let disposeBag = DisposeBag()
+    private lazy var movieTitleTableView: UITableView = {
+        let tableView = UITableView()
+        return tableView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,20 +37,17 @@ final class MovieMainViewController: UIViewController {
 private extension MovieMainViewController {
     func setupViews() {
         [
-            movieButton
+            movieButton,
+            movieTitleTableView
         ]
             .forEach {
                 view.addSubview($0)
             }
-
-        movieButton.snp.makeConstraints {
-            $0.centerX.equalToSuperview()
-            $0.centerY.equalToSuperview()
-        }
     }
 
     func bind() {
         viewModel.outputs.number
+            .debug()
             .subscribe(onNext: { number in
                 print(number)
             })

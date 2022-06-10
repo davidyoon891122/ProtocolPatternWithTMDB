@@ -13,10 +13,11 @@ protocol MovieMainViewModelInput {
     func requestMovieTitles()
     func sortTitles()
     func request1()
+    var userTap: PublishSubject<Void> { get }
 }
 
 protocol MovieMainViewModelOutput {
-    var number: Observable<Int> { get }
+    var number: BehaviorRelay<Int> { get }
 }
 
 protocol MovieMainViewModelType {
@@ -24,33 +25,41 @@ protocol MovieMainViewModelType {
     var outputs: MovieMainViewModelOutput { get }
 }
 
-final class MovieMainViewModel: MovieMainViewModelType, MovieMainViewModelOutput {
+final class MovieMainViewModel: MovieMainViewModelType, MovieMainViewModelOutput, MovieMainViewModelInput {
+    var userTap: PublishSubject<Void> = .init()
+
     let disposeBag = DisposeBag()
-    var number: Observable<Int>
+    var number: BehaviorRelay<Int>
 
     let model: MovieModel
 
     init() {
         model = MovieModel()
-        self.number = model.number.asObservable()
+        number = model.number
+
+        userTap.subscribe(onNext: { [weak self] in
+            guard let self = self else { return }
+            self.number.accept(10)
+        })
+            .disposed(by: disposeBag)
     }
 
     var inputs: MovieMainViewModelInput { return self }
 
     var outputs: MovieMainViewModelOutput { return self }
 
-}
-
-extension MovieMainViewModel: MovieMainViewModelInput {
-    func request1() {
-        print("request1")
-    }
-
     func requestMovieTitles() {
         print("requestMovieTitles")
+
     }
 
     func sortTitles() {
         print("sortTitles")
     }
+
+    func request1() {
+        print("request1")
+        self.number.accept(10)
+    }
+
 }
