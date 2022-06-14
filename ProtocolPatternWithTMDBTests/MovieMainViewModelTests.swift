@@ -30,7 +30,7 @@ final class MovieMainViewModelTests: XCTestCase {
         scheduler = nil
     }
 
-    func testNumber() throws {
+    func test_Number() throws {
         // ViewModel output(결과 옵저버블을 테스트 형태로 만들어서 주입)
         scheduler.createHotObservable([
             .next(500, 105),

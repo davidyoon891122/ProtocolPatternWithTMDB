@@ -33,6 +33,12 @@ final class MovieMainViewController: UIViewController, UITableViewDelegate {
         view.backgroundColor = .systemBackground
         setupViews()
         bind()
+
+        if let information = Bundle.main.infoDictionary {
+            if let APIKEY = information["TMDB_API_KEY"] as? String {
+                print(APIKEY)
+            }
+        }
     }
 }
 
